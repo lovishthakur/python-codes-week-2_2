@@ -1,0 +1,18 @@
+print("checking the maximum of the three integers")
+
+a =int(input("first number is:"))
+b =int(input("second number is:"))
+c =int(input("third number is:"))
+
+if(a>b and a>c):
+      print(str(a) + "maximum of the three")
+if(b>a and b>c):
+      print(str(b) + "maximum of the three")
+if(c>a and c>b):
+      print(str(c) + "is maximum of the three")
+if (a == b and b == c):
+          print(str(a) + "maximum of the three")
+if ((a**2 == b**2 + c**2) or (b**2 == a**2 + c**2) or (c**2 == b**2 + a**2)):
+    print("congrats they belongs to a right traiangle.")
+else:
+    print("nope they doesnt belong to a right triangle.")
