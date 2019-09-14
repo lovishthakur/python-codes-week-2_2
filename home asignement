@@ -1,0 +1,2 @@
+#develop code that reads one int from user and prints all prime no between 1 and that integer.
+#example: read=20 , output = 1,3,5,7,9
