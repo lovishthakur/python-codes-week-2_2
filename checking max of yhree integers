@@ -1,0 +1,12 @@
+print("checking the maximum of the three integers")
+
+x =int(input("first integer is:"))
+y =int(input("second integer is:"))
+z =int(input("third integer is:"))
+
+if(x>y and x>z):
+      print(str(x) + "maximum of the three")
+if(y>x and y>z):
+      print(str(y) + "maximum of the three")
+if(z>x and z>y):
+      print(str(z) + "is maximum of the three")
